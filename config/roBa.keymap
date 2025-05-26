@@ -14,13 +14,13 @@
 
         Windows {
             bindings = <&kp LEFT_WIN>;
-            key-positions = <27 39>;
+            key-positions = <27 38>;
             layers = <0 1 2 3>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <41 42>;
+            key-positions = <42 35>;
             layers = <0 1 2 3>;
         };
     };
