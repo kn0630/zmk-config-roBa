@@ -36,7 +36,7 @@
 &kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &mt LEFT_WIN LA(GRAVE)  &kp SPACE  &lt 1 ENTER          &lt 2 K_CONTEXT_MENU  &mt ESCAPE DELETE                             &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         Layer01 {
@@ -47,7 +47,7 @@
 &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &mt LEFT_WIN LA(GRAVE)  &kp SPACE  &trans               &lt 3 K_APPLICATION  &mt ESCAPE DELETE                                         &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         Layer02 {
@@ -58,7 +58,7 @@
 &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &mt RIGHT_WIN LA(GRAVE)  &kp SPACE              &lt 3 ENTER      &trans     &mt ESCAPE DELETE                                                 &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Layer03 {
